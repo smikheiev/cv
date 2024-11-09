@@ -1,0 +1,38 @@
+{
+  "title": "Serhii Mikheiev CV",
+  "name": "Serhii Mikheiev",
+  "phone": "+358 41 755 3621",
+  "email": "mikh.s.o@gmail.com",
+  "linkedin": "https://linkedin.com/in/smikheiev",
+  "about": "Experienced software engineer with a passion for building impactful applications and solving complex problems. Highly skilled in full-stack development and experienced with a variety of technologies. Motivated by challenges and always looking to learn and grow.",
+  "experience": [
+    {
+      "company": "Company A",
+      "positions": [
+        { "title": "Senior Software Engineer", "years": "2018 - Present" },
+        { "title": "Software Engineer", "years": "2015 - 2018" }
+      ],
+      "description": "Responsible for designing and implementing key features of the company’s platform, working across frontend and backend stacks. Led a team of developers and collaborated with cross-functional teams to ensure high-quality delivery."
+    },
+    {
+      "company": "Company B",
+      "positions": [
+        { "title": "Software Engineer", "years": "2015 - 2018" },
+        { "title": "Junior Software Engineer", "years": "2013 - 2015" }
+      ],
+      "description": "Developed new features and enhanced existing functionality in a fast-paced environment. Contributed to both frontend and backend development, focusing on performance optimization and scalability."
+    }
+  ],
+  "education": [
+    {
+      "school": "University Name",
+      "degrees": [
+        {
+          "title": "Bachelor of Science in Computer Science",
+          "years": "2010 - 2014"
+        }
+      ],
+      "description": "Studied core principles of software development, data structures, algorithms, and systems design. Graduated with honors."
+    }
+  ]
+}
