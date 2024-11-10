@@ -145,6 +145,12 @@
     </div>
   </div>
 
+  <script>
+    document.querySelectorAll('p').forEach(el => {
+      el.innerHTML = el.textContent.replace(/\n/g, '<br>');
+    });
+  </script>
+
 </body>
 
 </html>
