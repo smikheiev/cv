@@ -88,21 +88,24 @@
       flex-direction: column;
       gap: 16px;
 
+      .company-and-years {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .years {
+        font-style: italic;
+      }
+
       .positions {
         margin: 2px 0;
+        display: flex;
+        flex-direction: column;
 
         .position {
-          display: flex;
-          justify-content: space-between;
           margin-left: 8px;
-
-          .position-title {
-            font-weight: bold;
-          }
-
-          .position-years {
-            font-style: italic;
-          }
+          font-weight: bold;
         }
       }
     }
@@ -136,13 +139,13 @@
       <div class="experiences">
         {{#experience}}
         <div>
-          <h3>{{company}}</h3>
+          <div class="company-and-years">
+            <h3>{{company}}</h3>
+            <span class="years">{{years}}</span>
+            </div>
           <div class="positions">
             {{#positions}}
-            <div class="position">
-              <span class="position-title">{{title}}</span>
-              <span class="position-years">{{years}}</span>
-            </div>
+            <span class="position">{{.}}</span>
             {{/positions}}
           </div>
           <p>{{description}}</p>
@@ -157,16 +160,13 @@
       <div class="experiences">
         {{#education}}
         <div>
-          <h3>{{school}}</h3>
-          <div class="positions">
-            {{#degrees}}
-            <div class="position">
-              <span class="position-title">{{title}}</span>
-              <span class="position-years">{{years}}</span>
+          <div class="company-and-years">
+            <h3>{{school}}</h3>
+            <span class="years">{{years}}</span>
             </div>
-            {{/degrees}}
-          </div>
-          <p>{{description}}</p>
+          <div class="positions">
+            <span class="position">{{degree}}</span>
+            </div>
         </div>
         {{/education}}
       </div>

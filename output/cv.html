@@ -88,21 +88,24 @@
       flex-direction: column;
       gap: 16px;
 
+      .company-and-years {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .years {
+        font-style: italic;
+      }
+
       .positions {
         margin: 2px 0;
+        display: flex;
+        flex-direction: column;
 
         .position {
-          display: flex;
-          justify-content: space-between;
           margin-left: 8px;
-
-          .position-title {
-            font-weight: bold;
-          }
-
-          .position-years {
-            font-style: italic;
-          }
+          font-weight: bold;
         }
       }
     }
@@ -136,36 +139,27 @@ I have experience working across all parts of the product - from frontend and ba
       <h2>Professional Experience</h2>
       <div class="experiences">
         <div>
-          <h3>Meru Health</h3>
+          <div class="company-and-years">
+            <h3>Meru Health</h3>
+            <span class="years">Jul 2020 - Present</span>
+            </div>
           <div class="positions">
-            <div class="position">
-              <span class="position-title">Software Engineer Lead (Tech Lead)</span>
-              <span class="position-years">Aug 2023 - Present</span>
-            </div>
-            <div class="position">
-              <span class="position-title">Senior Software Engineer</span>
-              <span class="position-years">Aug 2022 - Jul 2023</span>
-            </div>
-            <div class="position">
-              <span class="position-title">Software Engineer</span>
-              <span class="position-years">Jul 2020 - Jul 2022</span>
-            </div>
+            <span class="position">Software Engineer</span>
+            <span class="position">Senior Software Engineer</span>
+            <span class="position">Software Engineer Lead (Tech Lead)</span>
           </div>
           <p>This role marked a significant shift, both in terms of industry – moving away from gamedev – and the technologies I worked with. I quickly learned and adapted to new tools such as React, React Native, GraphQL, PostgreSQL, and later Google Cloud Platform and Terraform. I was able to contribute to the codebase from the start and quickly became an integral part of the team. I worked on the mobile application for users, the internal web dashboard for therapists, backend services, and cloud infrastructure.
 As a tech lead, I was responsible for technical decisions, ensuring that code quality and architecture met company standards, guiding the team on best practices, mentoring and onboarding team members. I was also the go-to person for any technical challenges or questions from other teams. Additionally, I was accountable for the reliability and stability of the services, ensuring they ran smoothly and efficiently with minimal downtime. As part of the product trio (Product Manager, Lead Designer, and Tech Lead), we worked together to shape the product’s future, review user research and product analytics, adjust the roadmap, and prioritize features to ensure the product met both user needs and business objectives.
 Technologies used: React, React Native, GraphQL, PostgreSQL, Google Cloud Platform, Terraform.</p>
         </div>
         <div>
-          <h3>Yggdrasil Gaming</h3>
+          <div class="company-and-years">
+            <h3>Yggdrasil Gaming</h3>
+            <span class="years">May 2018 - Jun 2020</span>
+            </div>
           <div class="positions">
-            <div class="position">
-              <span class="position-title">Tech Lead Client Developer</span>
-              <span class="position-years">Aug 2018 - Jun 2020</span>
-            </div>
-            <div class="position">
-              <span class="position-title">Senior Client Developer</span>
-              <span class="position-years">May 2018 - Jul 2018</span>
-            </div>
+            <span class="position">Senior Client Developer</span>
+            <span class="position">Tech Lead Client Developer</span>
           </div>
           <p>I worked on web clients for online slot games, supporting both desktop and mobile browsers. I quickly learned new technologies - JavaScript and pixi.js (a library for WebGL rendering), and applied my prior experience with the Robotlegs framework, Spine, and TweenMax.
 As a tech lead, I was responsible for maintaining code quality, improving architecture, onboarding and mentoring new developers, prioritizing tasks based on business objectives. I also helped with managing project timelines and allocating resources. I worked closely with game producers, managers, and other teams (backend, platform) to ensure timely game releases.
@@ -173,27 +167,24 @@ Additionally, I contributed to improving the company’s internal framework, int
 Technologies used: JavaScript, pixi.js, Spine, TweenMax.</p>
         </div>
         <div>
-          <h3>Rage Quit Games</h3>
-          <div class="positions">
-            <div class="position">
-              <span class="position-title">Full-Stack Game Developer</span>
-              <span class="position-years">Jan 2018 - Sep 2018</span>
+          <div class="company-and-years">
+            <h3>Rage Quit Games</h3>
+            <span class="years">Jan 2018 - Sep 2018</span>
             </div>
+          <div class="positions">
+            <span class="position">Full-Stack Game Developer</span>
           </div>
           <p>I worked on developing a mobile multiplayer online RPG game using Unity3D. In addition to building the game client, I also worked on backend services with Node.js for features like friends, chat, and push notifications. This role was my first experience with Node.js, JavaScript, cloud infrastructure, and Docker containers. It strengthened my Unity3D skills and provided a solid foundation for backend development.
 Technologies used: Unity3D, Node.js, JavaScript, Docker, Google Cloud Platform (GCP).</p>
         </div>
         <div>
-          <h3>GameDesire (Ganymede)</h3>
+          <div class="company-and-years">
+            <h3>GameDesire (Ganymede)</h3>
+            <span class="years">Jun 2015 - Sep 2017</span>
+            </div>
           <div class="positions">
-            <div class="position">
-              <span class="position-title">Senior Software Engineer</span>
-              <span class="position-years">Jun 2017 - Sep 2017</span>
-            </div>
-            <div class="position">
-              <span class="position-title">Software Engineer</span>
-              <span class="position-years">Jun 2015 - May 2017</span>
-            </div>
+            <span class="position">Software Engineer</span>
+            <span class="position">Senior Software Engineer</span>
           </div>
           <p>I worked on the web client for a real-time online multiplayer billiards game using ActionScript (Flash). I applied my knowledge of ActionScript and the Starling framework and gained new skills, particularly in implementing MVC architecture with the Robotlegs framework, using IoC, and the TweenMax library for animations. This project also introduced me to working in a larger team and following agile methodologies and good development practices (eg, code reviews, CI&#x2F;CD).
 Later, I transitioned to mobile development, working on an Android client for a real-time multiplayer poker game built with Java (native Android app). Although I was new to native Android development, I quickly got up to speed and began contributing within the first week. I then worked on porting the game to the Qt framework for both iOS and Android platforms, which required learning the Qt framework and C++. Through this, I gained experience in native Android (and a bit iOS) development, the Qt environment, and mobile development practices (eg, app release and distribution process).
@@ -201,12 +192,12 @@ As a senior software engineer, I later led a team of 3 developers on a new proje
 Technologies used: ActionScript (Flash), Starling framework, Robotlegs framework (MVC), TweenMax, native Android, Java, Qt, C++.</p>
         </div>
         <div>
-          <h3>Rolling Games (Picaboum Ukraine)</h3>
-          <div class="positions">
-            <div class="position">
-              <span class="position-title">Game Developer</span>
-              <span class="position-years">Apr 2013 - May 2015</span>
+          <div class="company-and-years">
+            <h3>Rolling Games (Picaboum Ukraine)</h3>
+            <span class="years">Apr 2013 - May 2015</span>
             </div>
+          <div class="positions">
+            <span class="position">Game Developer</span>
           </div>
           <p>I was hired as a Unity3D developer, but shortly after starting, I was asked to help with a small game built with ActionScript (Flash). Following this, I took on the development of a major project as the sole developer on the team: an online match-3 game, similar to Candy Crush Saga, which was launched on the Facebook Games platform. Although I had only basic knowledge of ActionScript initially, I quickly learned key frameworks and libraries used in game development (eg, Starling, Spine). Working on this project taught me both good and bad coding practices, as well as how to handle the unique challenges of maintaining and updating a live game. It gave me a strong foundation for my future development.
 In addition to this large project, I contributed to several smaller games developed with ActionScript and Unity3D. This role also provided my first experience in a collaborative team environment, where I worked closely with PMs, designers, and other stakeholders.
@@ -220,14 +211,13 @@ Technologies used: ActionScript (Flash), Unity3D, Starling framework (game engin
       <h2>Education</h2>
       <div class="experiences">
         <div>
-          <h3>Chernihiv National University of Technology (Ukraine)</h3>
-          <div class="positions">
-            <div class="position">
-              <span class="position-title">BSc Computer Systems and Networks</span>
-              <span class="position-years">2008-2013</span>
+          <div class="company-and-years">
+            <h3>Chernihiv National University of Technology (Ukraine)</h3>
+            <span class="years">2008-2013</span>
             </div>
-          </div>
-          <p></p>
+          <div class="positions">
+            <span class="position">BSc Computer Systems and Networks</span>
+            </div>
         </div>
       </div>
     </section>
