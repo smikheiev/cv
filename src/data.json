@@ -17,21 +17,21 @@
         "Software Engineer Lead (Tech Lead)"
       ],
       "description": "This role marked a significant shift, both in terms of industry – moving away from gamedev – and the technologies I worked with. I quickly learned and adapted to new tools such as React, React Native, GraphQL, PostgreSQL, and later Google Cloud Platform and Terraform. I was able to contribute to the codebase from the start and quickly became an integral part of the team. I worked on the mobile application for users, the internal web dashboard for therapists, backend services, and cloud infrastructure.\nAs a tech lead, I was responsible for technical decisions, ensuring that code quality and architecture met company standards, guiding the team on best practices, mentoring and onboarding team members. I was also the go-to person for any technical challenges or questions from other teams. Additionally, I was accountable for the reliability and stability of the services, ensuring they ran smoothly and efficiently with minimal downtime. As part of the product trio (Product Manager, Lead Designer, and Tech Lead), we worked together to shape the product’s future, review user research and product analytics, adjust the roadmap, and prioritize features to ensure the product met both user needs and business objectives.",
-      "technologies": "React, React Native, Node.js, TypeScript, GraphQL, PostgreSQL, Docker, Google Cloud Platform, Terraform"
+      "technologies": "<strong>React</strong>, <strong>React Native</strong>, <strong>Node.js</strong>, <strong>TypeScript</strong>, <strong>GraphQL</strong>, <strong>PostgreSQL</strong>, <strong>Docker</strong>, <strong>Google Cloud Platform</strong>, <strong>Terraform</strong>"
     },
     {
       "company": "Yggdrasil Gaming",
       "years": "May 2018 - Jun 2020",
       "positions": ["Senior Client Developer", "Tech Lead Client Developer"],
       "description": "I worked on web clients for online slot games, supporting both desktop and mobile browsers. I quickly learned new technologies - JavaScript and pixi.js (a library for WebGL rendering), and applied my prior experience with the Robotlegs framework, Spine, and TweenMax.\nAs a tech lead, I was responsible for maintaining code quality, improving architecture, onboarding and mentoring new developers, prioritizing tasks based on business objectives. I also helped with managing project timelines and allocating resources. I worked closely with game producers, managers, and other teams (backend, platform) to ensure timely game releases.\nAdditionally, I contributed to improving the company’s internal framework, introducing new features and supporting its transition from a monolithic structure to smaller, independent modules.",
-      "technologies": "JavaScript, pixi.js, Spine, TweenMax"
+      "technologies": "<strong>JavaScript</strong>, pixi.js, Spine, TweenMax"
     },
     {
       "company": "Rage Quit Games",
       "years": "Jan 2018 - Sep 2018",
       "positions": ["Full-Stack Game Developer"],
       "description": "I worked on developing a mobile multiplayer online RPG game using Unity3D. In addition to building the game client, I also worked on backend services with Node.js for features like friends, chat, and push notifications. This role was my first experience with Node.js, JavaScript, cloud infrastructure, and Docker containers. It strengthened my Unity3D skills and provided a solid foundation for backend development.",
-      "technologies": "Unity3D, Node.js, JavaScript, Docker, Google Cloud Platform"
+      "technologies": "Unity3D, <strong>Node.js</strong>, <strong>JavaScript</strong>, <strong>Docker</strong>, <strong>Google Cloud Platform</strong>"
     },
     {
       "company": "GameDesire (Ganymede)",
