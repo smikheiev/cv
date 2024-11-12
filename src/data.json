@@ -1,10 +1,12 @@
 {
   "title": "Serhii Mikheiev CV",
-  "name": "Serhii Mikheiev",
-  "phone": "+358 41 755 3621",
-  "email": "mikh.s.o@gmail.com",
-  "linkedin": "https://linkedin.com/in/smikheiev",
-  "about": "I’m a product-minded software engineer with over 10 years of experience across multiple industries and technology stacks. I focus on understanding user problems and pain points and solving them with code. I collaborate closely with product managers, designers, and other stakeholders to ensure technical solutions align with business goals and deliver a great user experience.\nI have experience working across all parts of the product - from frontend and backend to infrastructure. I also enjoy improving the developer experience to make developers' lives easier and more efficient. And to some extent, I like working on team processes to improve productivity and collaboration.",
+  "contactInfo": {
+    "name": "Serhii Mikheiev",
+    "phone": "+358 41 755 3621",
+    "email": "mikh.s.o@gmail.com",
+    "linkedin": "https://linkedin.com/in/smikheiev"
+  },
+  "aboutMe": "I’m a product-minded software engineer with over 10 years of experience across multiple industries and technology stacks. I focus on understanding user problems and pain points and solving them with code. I collaborate closely with product managers, designers, and other stakeholders to ensure technical solutions align with business goals and deliver a great user experience.\nI have experience working across all parts of the product - from frontend and backend to infrastructure. I also enjoy improving the developer experience to make developers' lives easier and more efficient. And to some extent, I like working on team processes to improve productivity and collaboration.",
   "experience": [
     {
       "company": "Meru Health",
