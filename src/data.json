@@ -17,7 +17,7 @@
         "Software Engineer Lead (Tech Lead)"
       ],
       "description": "This role marked a significant shift, both in terms of industry – moving away from gamedev – and the technologies I worked with. I quickly learned and adapted to new tools such as React, React Native, GraphQL, PostgreSQL, and later Google Cloud Platform and Terraform. I was able to contribute to the codebase from the start and quickly became an integral part of the team. I worked on the mobile application for users, the internal web dashboard for therapists, backend services, and cloud infrastructure.\nAs a tech lead, I was responsible for technical decisions, ensuring that code quality and architecture met company standards, guiding the team on best practices, mentoring and onboarding team members. I was also the go-to person for any technical challenges or questions from other teams. Additionally, I was accountable for the reliability and stability of the services, ensuring they ran smoothly and efficiently with minimal downtime. As part of the product trio (Product Manager, Lead Designer, and Tech Lead), we worked together to shape the product’s future, review user research and product analytics, adjust the roadmap, and prioritize features to ensure the product met both user needs and business objectives.",
-      "technologies": "React, React Native, GraphQL, PostgreSQL, Google Cloud Platform, Terraform"
+      "technologies": "React, React Native, Node.js, TypeScript, GraphQL, PostgreSQL, Docker, Google Cloud Platform, Terraform"
     },
     {
       "company": "Yggdrasil Gaming",
@@ -31,7 +31,7 @@
       "years": "Jan 2018 - Sep 2018",
       "positions": ["Full-Stack Game Developer"],
       "description": "I worked on developing a mobile multiplayer online RPG game using Unity3D. In addition to building the game client, I also worked on backend services with Node.js for features like friends, chat, and push notifications. This role was my first experience with Node.js, JavaScript, cloud infrastructure, and Docker containers. It strengthened my Unity3D skills and provided a solid foundation for backend development.",
-      "technologies": "Unity3D, Node.js, JavaScript, Docker, Google Cloud Platform (GCP)"
+      "technologies": "Unity3D, Node.js, JavaScript, Docker, Google Cloud Platform"
     },
     {
       "company": "GameDesire (Ganymede)",
